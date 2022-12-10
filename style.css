@@ -1,0 +1,109 @@
+/* General styling */
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font:'Lato',sans-serif;
+
+}
+
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    text-align: center;
+    background: url(131126201302-the-bodleian-library-3.jpg) no-repeat center center/ cover; 
+}
+
+.container
+{
+    display:flex;
+    
+    flex-direction: column;
+    height:450px;
+    width:550px;
+}
+
+.header
+{
+    font-size:1.2rem;
+    background-color:black;
+    color: white;
+    border:solid 4px white;
+    border-radius: 5px;
+    margin:20px;
+    padding:5px;
+    text-align: center;
+    
+
+      
+}
+
+.main
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color:white;
+    height:300px;
+    border-radius:15px;
+    padding:50px 40px;
+    padding-bottom: 15px;
+    box-shadow:0 0 10px;
+    opacity: 0.9;
+
+}
+
+.main .text-area
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    font-size:1.75rem;
+    line-height:1.5rem;
+    margin-bottom: 10px;
+    
+}
+
+.main .word
+{
+    display:flex;
+    flex-direction: column;
+    padding:15px
+}
+.main .person
+{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    color:crimson;
+    font-size: 2rem;
+    margin: 10px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+
+.button-area #but
+{
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+    padding:5px 10px;
+    border-radius: 5px;
+    
+    
+    
+
+
+}
+
+.button-area #but:active
+{
+    
+    background-color: yellow;
+}
